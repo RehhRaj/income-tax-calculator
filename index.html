@@ -27,44 +27,57 @@
         FY 2025-26 (AY 2026-27) · New Tax Regime · Salaried Employees
     </p>
 
+
+
     <div class="form-group">
         <label for="grossSalary">1. Gross Salary (₹)</label>
-        <input type="number" id="grossSalary" placeholder="Enter annual gross salary">
+
+<input type="number" id="grossSalary" class="user-input" placeholder="Enter annual gross salary">
+
     </div>
 
     <div class="form-group">
         <label>2. Standard Deduction (₹)</label>
-        <input type="number" value="75000" readonly>
+        <input type="number" value="75000" class="readonly-field" readonly>
     </div>
 
     <div class="form-group">
         <label>3. Total Taxable Income (₹)</label>
-        <input type="number" id="taxableIncome" readonly>
+        <input type="number" id="taxableIncome" class="readonly-field" readonly>
+
+
+        
     </div>
 
     <div class="form-group">
         <label>4. Tax on Total Income (₹)</label>
-        <input type="number" id="incomeTax" readonly>
+        <input type="number" id="incomeTax" class="readonly-field" readonly>
     </div>
 
     <div class="form-group">
         <label>5. Health & Education Cess @ 4% (₹)</label>
-        <input type="number" id="cess" readonly>
+        <input type="number" id="cess" class="readonly-field" readonly>
     </div>
 
     <div class="form-group">
         <label>6. Total Tax + Cess (₹)</label>
-        <input type="number" id="totalTax" readonly>
+        <input type="number" id="totalTax" class="readonly-field" readonly>
     </div>
 
     <div class="form-group">
         <label for="taxPaid">7. Tax + Cess Deducted up to Dec 2025 (₹)</label>
-        <input type="number" id="taxPaid" placeholder="Enter tax already paid">
+
+       
+<input type="number" id="taxPaid" class="user-input" placeholder="Enter tax already paid">
+
+
+
+
     </div>
 
     <div class="form-group highlight">
         <label>8. Balance Tax Payable / Refund (₹)</label>
-        <input type="number" id="balanceTax" readonly>
+        <input type="number" id="balanceTax" class="readonly-field" readonly>
     </div>
 
     <button class="reset-btn" id="resetBtn">Reset</button>
