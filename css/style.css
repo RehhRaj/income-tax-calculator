@@ -1,0 +1,133 @@
+/* ===============================
+   GLOBAL RESET & BASE STYLES
+================================ */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+                 Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #1f2933;
+    line-height: 1.4;
+}
+
+/* ===============================
+   CONTAINER
+================================ */
+.container {
+    max-width: 100%;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* ===============================
+   HEADINGS
+================================ */
+h1 {
+    font-size: 1.4rem;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 0.9rem;
+    color: #6b7280;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ===============================
+   FORM
+================================ */
+.form-group {
+    margin-bottom: 14px;
+}
+
+label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 12px;
+    border: 1px solid #d1d5db;
+    outline: none;
+}
+
+input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+input[readonly] {
+    background-color: #f1f3f5;
+    color: #374151;
+}
+
+/* ===============================
+   HIGHLIGHT RESULT
+================================ */
+.highlight input {
+    font-weight: 700;
+    background-color: #eef2ff;
+}
+
+/* ===============================
+   BUTTON
+================================ */
+.reset-btn {
+    width: 100%;
+    margin-top: 20px;
+    padding: 14px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #ef4444;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.reset-btn:active {
+    transform: scale(0.98);
+}
+
+/* ===============================
+   DISCLAIMER
+================================ */
+.disclaimer {
+    font-size: 0.75rem;
+    color: #6b7280;
+    margin-top: 18px;
+    text-align: center;
+}
+
+/* ===============================
+   DESKTOP / TABLET
+================================ */
+@media (min-width: 768px) {
+    body {
+        padding: 40px;
+    }
+
+    .container {
+        max-width: 560px;
+        margin: auto;
+        padding: 28px;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+}

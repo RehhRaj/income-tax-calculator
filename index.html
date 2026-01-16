@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Income Tax Calculator FY 2025-26 | New Tax Regime (India)</title>
+
+    <meta name="description"
+          content="Free Income Tax Calculator for FY 2025-26 (AY 2026-27) under New Tax Regime for salaried employees. Includes standard deduction, rebate under section 87A, marginal relief and 4% cess.">
+
+    <meta name="keywords"
+          content="income tax calculator india, fy 2025-26 tax calculator, new tax regime calculator, marginal relief calculator">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="canonical" href="https://your-project.vercel.app/">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Income Tax Calculator</h1>
+    <p class="subtitle">
+        FY 2025-26 (AY 2026-27) · New Tax Regime · Salaried Employees
+    </p>
+
+    <div class="form-group">
+        <label for="grossSalary">1. Gross Salary (₹)</label>
+        <input type="number" id="grossSalary" placeholder="Enter annual gross salary">
+    </div>
+
+    <div class="form-group">
+        <label>2. Standard Deduction (₹)</label>
+        <input type="number" value="75000" readonly>
+    </div>
+
+    <div class="form-group">
+        <label>3. Total Taxable Income (₹)</label>
+        <input type="number" id="taxableIncome" readonly>
+    </div>
+
+    <div class="form-group">
+        <label>4. Tax on Total Income (₹)</label>
+        <input type="number" id="incomeTax" readonly>
+    </div>
+
+    <div class="form-group">
+        <label>5. Health & Education Cess @ 4% (₹)</label>
+        <input type="number" id="cess" readonly>
+    </div>
+
+    <div class="form-group">
+        <label>6. Total Tax + Cess (₹)</label>
+        <input type="number" id="totalTax" readonly>
+    </div>
+
+    <div class="form-group">
+        <label for="taxPaid">7. Tax + Cess Deducted up to Dec 2025 (₹)</label>
+        <input type="number" id="taxPaid" placeholder="Enter tax already paid">
+    </div>
+
+    <div class="form-group highlight">
+        <label>8. Balance Tax Payable / Refund (₹)</label>
+        <input type="number" id="balanceTax" readonly>
+    </div>
+
+    <button class="reset-btn" id="resetBtn">Reset</button>
+
+    <p class="disclaimer">
+        Disclaimer: This calculator is for informational purposes only. Actual tax liability may vary.
+        Please consult a qualified tax professional before making financial decisions.
+   
+
+        <p class="form-group">
+    Suggestions and corrections are welcome.
+    Please share your feedback using the form below.
+</p>
+<button class="reset-btn " >
+    <a href= "https://forms.gle/W1SDUgc2qpPqC92t6" target="_blank">
+                Submit Feedback
+    </a>
+</button>
+
+
+</div>
+
+<!-- JavaScript (Modules) -->
+<script type="module" src="js/main.js"></script>
+
+</body>
+</html>
