@@ -12,6 +12,7 @@ body {
                  Roboto, Helvetica, Arial, sans-serif;
     background-color: #f5f7fa;
     color: #1f2933;
+   
     line-height: 1.4;
 }
 
@@ -54,6 +55,7 @@ label {
     font-weight: 600;
     display: block;
     margin-bottom: 6px;
+   background: #86cea4;
 }
 
 /* ===============================
